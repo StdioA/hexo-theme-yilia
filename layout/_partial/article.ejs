@@ -53,7 +53,7 @@
   <% } %>
 </article>
 
-<% if (!index && theme.share){ %>
+<% if (!index && theme.share && post.comments){ %>
 <%- partial('post/share') %>
 <% } %>
 
