@@ -8,11 +8,11 @@ menu:
 # SubNav
 subnav:
   github: https://github.com/StdioA
-  weibo: http://weibo.com/stdionoi/
+  # weibo: http://weibo.com/stdionoi/
   # zhihu: http://www.zhihu.com/people/stdioa
   telegram: https://telegram.me/StdioA
   mail: mailto:stdio_dai@nuaa.edu.cn
-  # rss: "#"
+  rss: "/atom.xml"
   #douban: "#"
   #mail: "#"
   #facebook: "#"
@@ -52,7 +52,7 @@ tagcloud: true
 #friends: false
 #开启——
 friends:
-  Rexskz: http://rexskz.sinaapp.com/
+  Rexskz: http://rexskz.info/
 #是否开启“关于我”。
 #不开启——
 #aboutme: false
