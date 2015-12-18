@@ -57,6 +57,10 @@
 <%- partial('post/share') %>
 <% } %>
 
+<% if (!index && theme.share_addthis){ %>
+<%- partial('post/share_addthis') %>
+<% } %>
+
 <% if (!index && theme.duoshuo && post.comments){ %>
 <%- partial('post/duoshuo', {
     key: post.slug,
