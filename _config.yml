@@ -1,6 +1,7 @@
 # Header
 menu:
-  主页: /
+  个人主页: https://www.stdioa.com/
+  博客主页: /
   所有文章: /archives
   关于我: /about
   # 随笔: /tags/随笔
@@ -38,7 +39,7 @@ google_analytics: UA-65107715-1
 favicon: /favicon.ico
 
 #你的头像url
-avatar: /avatar.jpg
+avatar: /pics/avatar.jpg
 #是否开启分享
 share_jia: true
 share_addthis: false
@@ -55,7 +56,7 @@ tagcloud: true
 #friends: false
 #开启——
 friends:
-  我的乐谱分享站: http://7tsyw3.com1.z0.glb.clouddn.com/index.html
+  我的乐谱分享站: http://sheet.stdioa.com/
   Rexskz: https://rexskz.info/
 #是否开启“关于我”。
 #不开启——

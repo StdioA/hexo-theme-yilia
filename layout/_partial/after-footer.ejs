@@ -24,3 +24,9 @@
 <% if (theme.mathjax){ %>
 <%- partial('mathjax') %>
 <% } %>
+<script>
+twemoji.parse(document.getElementsByClassName("article-inner")[0], {
+		folder: "svg", 
+		ext: ".svg"
+	});
+</script>
