@@ -38,6 +38,8 @@ open_in_new: false
 google_analytics: UA-65107715-1
 favicon: /favicon.ico
 
+cnzz_analytics: 1258492651
+
 #你的头像url
 avatar: /pics/avatar.jpg
 #是否开启分享

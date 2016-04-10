@@ -12,3 +12,7 @@ ga('send', 'pageview');
 </script>
 <!-- End Google Analytics -->
 <% } %>
+
+<% if (theme.cnzz_analytics) { %>
+<script src="//s11.cnzz.com/z_stat.php?id=<%= theme.cnzz_analytics %>&web_id=<%= theme.cnzz_analytics %>" language="JavaScript"></script>
+<% } %>
