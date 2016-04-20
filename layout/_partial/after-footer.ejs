@@ -3,17 +3,17 @@
 <% } %>
 
 <script>
-	var yiliaConfig = {
-		fancybox: <%=theme.fancybox%>,
-		mathjax: <%=theme.mathjax%>,
-		animate: <%=theme.animate%>,
-		isHome: <%=is_home()%>,
-		isPost: <%=is_post()%>,
-		isArchive: <%=is_archive()%>,
-		isTag: <%=is_tag()%>,
-		isCategory: <%=is_category()%>,
-		open_in_new: <%=theme.open_in_new%>
-	}
+  var yiliaConfig = {
+    fancybox: <%=theme.fancybox%>,
+    mathjax: <%=theme.mathjax%>,
+    animate: <%=theme.animate%>,
+    isHome: <%=is_home()%>,
+    isPost: <%=is_post()%>,
+    isArchive: <%=is_archive()%>,
+    isTag: <%=is_tag()%>,
+    isCategory: <%=is_category()%>,
+    open_in_new: <%=theme.open_in_new%>
+  }
 </script>
 <%- js('//7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min') %>
 <%- js('js/main') %>
@@ -26,7 +26,9 @@
 <% } %>
 <script>
 twemoji.parse(document.getElementsByClassName("article-inner")[0], {
-		folder: "svg", 
-		ext: ".svg"
-	});
+    folder: "svg", 
+    ext: ".svg"
+  });
 </script>
+<!-- 不蒜子 -->
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
